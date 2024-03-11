@@ -1,0 +1,106 @@
+.container {
+    max-width: calc(1200px + 32px);
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.header-nav__menu {
+    margin-left: 191px;
+    margin-right: 208px;
+}
+
+.header-nav__menu > * + * {
+    margin-left: 88px;
+}
+
+.header-nav__link {
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.currentcy {
+    border: none;
+    outline: none;
+    background: transparent;
+
+    padding: 12px 18px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+
+    color: #fff;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main-content {
+    width: 608px;
+    position: relative;
+    z-index: 2;
+}
+
+.main-badge {   
+    padding: 12px 16px;
+    border-radius: 100px;
+    background: #D3320F;
+
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.title-1 {
+    font-family: Merriweather;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 130%;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+
+.main-content, .title-1 {
+    margin-bottom: 56px;
+}
+
+.main-text {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 56px;
+}
+
+.main-link {
+    width: 260px;
+    padding: 19px 50px;
+    border-radius: 8px;
+    background: linear-gradient(96deg, #DA8023 0%, #E2B438 100%);
+    text-align: center;
+
+    color: #191411 !important;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main-image {
+    position: absolute;
+    top: 0;
+    right: -321px;
+}

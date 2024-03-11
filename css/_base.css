@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html body {
+    background: #191411;
+}
+
+img, 
+svg {
+    display: block;
+    width: 100%;
+}
+
+ol, 
+ul {
+    list-style: none;
+}
+
+a, 
+span, 
+button, 
+input, 
+textarea {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+a,
+button, 
+input, 
+textarea {
+    cursor: pointer;
+}

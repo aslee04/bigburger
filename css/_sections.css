@@ -1,0 +1,16 @@
+.header {
+    background-image: url("../images/main_bg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: #fff;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-section {
+    position: relative;
+    padding: 102px 0 200px;
+}
